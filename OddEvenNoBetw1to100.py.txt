@@ -1,0 +1,11 @@
+count=0
+c_odd=0
+for i in range (100):
+  if(i%2==0):
+    count +=1
+    print("The even numbers are",i)
+  else:
+    c_odd +=1
+    print ("The odd nummbers are",i)
+print("The count of odd number is:",c_odd)
+print("The count of even number is:",count)
